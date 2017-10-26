@@ -4,10 +4,10 @@ const
 
 describe('Site', () => {
     it('can be visited by an adult', () => {
-        expect(app.userIsOldEnough({ age: 23 })).to.equal(true);
+        expect(app.userIsOldEnough({ age: 23 })).to.be.true;
     });
 
     it('can not be visited by a child', () => {
-        expect(app.userIsOldEnough({ age: 13 })).to.equal(false);
+        expect(app.userIsOldEnough({ age: 13 })).to.be.false;
     });
 });
