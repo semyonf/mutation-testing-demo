@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "test": "istanbul cover _mocha",
-    "mutate": "stryker run"
+    "posttest": "stryker run"
   },
   "main": "app.js",
   "devDependencies": {
