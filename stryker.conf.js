@@ -1,15 +1,12 @@
 module.exports = function(config) {
     config.set({
         files: [{
-                pattern: 'src/**/*.js',
-                mutated: true,
-                included: false
+                pattern: 'app.js',
+                mutated: true
             },
             'test/**/*.js'
         ],
         testRunner: 'mocha',
-        mutator: 'es5',
-        transpilers: [],
         reporter: ['html', 'clear-text', 'progress'],
         testFramework: 'mocha',
         coverageAnalysis: 'perTest'
