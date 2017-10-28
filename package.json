@@ -16,8 +16,5 @@
     "stryker-html-reporter": "^0.10.1",
     "stryker-mocha-framework": "^0.6.1",
     "stryker-mocha-runner": "^0.9.1"
-  },
-  "dependencies": {
-    "underscore": "^1.8.3"
   }
 }
